@@ -1,5 +1,4 @@
 .intro, .idea, .style, .posters, .threeD, .rebranding {
-  height: 100vh;
 }
 
 main {
@@ -21,8 +20,6 @@ main {
 
 .intro_zag {
   display: flex;
-
-  margin-top: -25vw;
 
   font-size: 10vw;
   font-weight: 600;
@@ -63,7 +60,7 @@ main {
 .idea {
   display: flex;
 
-  height: 50vh;
+  height: 100vh;
 /* background-image: -webkit-linear-gradient(bottom, #18FF02, #FF0402); */
 
   background-color: black;
@@ -89,14 +86,19 @@ main {
 .description p:last-of-type {
   margin-bottom: 0;
 }
+
 .style {
   display: flex;
   flex-direction: column;
 
   background: black;
+
+  align-items: center;
 }
 
 .style h1 {
+  text-align: center;
+
   font-size: 6vw;
   font-weight: 400;
 }
@@ -106,18 +108,95 @@ main {
   font-weight: 300;
 }
 
+.style_description {
+
+}
+
+.style p {
+  width: 80vw;
+  margin-top: 3vw;
+  margin-bottom:3vw;
+
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+
+.style img {
+  width: 50vw;
+}
+
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .posters {
-  background: green;
+  display: flex;
+  flex-direction: column;
+
+  background: black;
+
+  align-items: center;
+}
+
+.posters p {
+  width: 80vw;
+  margin-top: 3vw;
+  margin-bottom:3vw;
+
+  font-size: 2.5vw;
+  font-weight: 300;
 }
 
 .posters h1 {
+  text-align: center;
+
   font-size: 6vw;
   font-weight: 400;
 }
 
 .posters h2 {
+  text-align: center;
+
   font-size: 5vw;
   font-weight: 300;
+}
+
+.posters_graphical img, .posters_typographical img {
+  width: 30vw;
+  margin-bottom: 5vw;
+}
+
+.graphical {
+  display: flex;
+  flex-direction: column;
+}
+
+.graphical h2{
+  margin-bottom: 5vw;
+}
+
+
+.posters_graphical {
+  display: grid;
+
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 5vw;
+}
+
+.typographical h2{
+  margin-bottom: 5vw;
+}
+
+.posters_typographical {
+  display: grid;
+
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 5vw;
 }
 
 .threeD {
@@ -131,4 +210,9 @@ main {
 
 .rebranding {
   background: red;
+}
+
+.rebranding h1 {
+  font-size: 6vw;
+  font-weight: 400;
 }
