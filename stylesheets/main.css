@@ -1,0 +1,134 @@
+.intro, .idea, .style, .posters, .threeD, .rebranding {
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+
+  color: white;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+
+  background: black;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.intro_zag {
+  display: flex;
+
+  margin-top: -25vw;
+
+  font-size: 10vw;
+  font-weight: 600;
+}
+
+.intro_zag div {
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
+
+.intro_text {
+  padding-top: 20pt;
+
+  font-size: 20pt;
+}
+
+.sky p {
+ background-image: -webkit-linear-gradient(right, #18FF02, #FF0402);
+ -webkit-background-clip: text;
+
+ -webkit-text-fill-color: transparent;
+}
+
+.land p {
+ background-image: -webkit-linear-gradient(right, #FFFFFF, #27BCE9);
+ -webkit-background-clip: text;
+
+ -webkit-text-fill-color: transparent;
+}
+
+.idea_zag {
+  margin-right: 10vw;
+
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.idea {
+  display: flex;
+
+  height: 50vh;
+/* background-image: -webkit-linear-gradient(bottom, #18FF02, #FF0402); */
+
+  background-color: black;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+
+  width: 50vw;
+
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+
+.description p {
+  margin-bottom: 2vw;
+}
+
+.description p:last-of-type {
+  margin-bottom: 0;
+}
+.style {
+  display: flex;
+  flex-direction: column;
+
+  background: black;
+}
+
+.style h1 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.style h2 {
+  font-size: 5vw;
+  font-weight: 300;
+}
+
+.posters {
+  background: green;
+}
+
+.posters h1 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.posters h2 {
+  font-size: 5vw;
+  font-weight: 300;
+}
+
+.threeD {
+  background: black;
+}
+
+.threeD h1 {
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.rebranding {
+  background: red;
+}

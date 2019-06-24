@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+  </head>
+  <body>
+  <header id="myHeader">
+    <div class="logo">
+      <img src="images/logos.png" alt="">
+    </div>
+    <nav>
+      <ul>
+        <a href="#idea">Идея</a>
+        <a href="#style">Стиль</a>
+        <a href="#posters">Плакаты</a>
+        <a href="#threeD">3D</a>
+        <a href="#rebranding">Ребрендинг</a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro" id="intro">
+      <div class="intro_zag">С
+        <div class="sky"><p>небес</p></div>на
+        <div class="land"><p>Землю</p></div>
+      </div>
+      <div class="intro_text">
+        <p>Этот сайт посвящен моей работе над проектом </p>
+      </div>
+    </section>
+    <section class="idea" id="idea">
+      <div class="idea_zag">Идея</div>
+      <div class="description"><p>К началу XXIII века человечество достигает небывалых успехов в медицине. Средняя продолжительность качественной жизни достигает отметки в 150 лет.</p>
+
+      <p>Чтобы избежать маразма элит, правительство обязывает всех столетних миллиардеров пройти операцию по обновлению эмоционального ядра мозга.</p>
+
+      <p>Проводится она в орбитальных клиниках компании «Новый Разум». Новейшая из них находится на орбите Титана.</p>
+    </div>
+    </section>
+    <section class="style" id="style">
+      <h1>Фирменный стиль</h1>
+      <h2>Логотип</h2>
+      <h2>Айдентика</h2>
+    </section>
+    <section class="posters" id="posters">
+      <h1>Плакаты</h1>
+      <h2>Графические</h2>
+      <h2>Типографные</h2>
+    </section>
+    <section class="threeD" id="threeD">
+      <h1>Проект станции</h1>
+    </section>
+    <section class="rebranding" id="rebranding">
+      <h1>Ребрендинг</h1>
+    </section>
+  </main>
+  </body>
+  <footer>
+      <div class="footer_header">
+        <h2>Проект студента первого курса профиля <br>«<a href="https://design.hse.ru/ba/programming">Дизайн и программирование</a>»</h2>
+        <h2><a href="https://design.hse.ru">Школа дизайна НИУ ВШЭ</a></h2>
+      </div>
+      <div class="autor">
+        <h2>Автор</h2>
+        <h3><a href="https://portfolio.hse.ru/User/10412">Денис Забузов</a> <br><br><span>©2019</span></h3>
+      </div>
+      <div class="curators">
+        <h2>Кураторы</h2>
+        <h3><a href="https://design.hse.ru/team/345">Захар День</a></h3>
+        <h3><a href="https://design.hse.ru/team/4249">Евгения Ломакина</a></h3>
+      </div>
+      <div class="images">
+        <img src="images/logo.png" alt="лого">
+      </div>
+    </footer>
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+</html>
