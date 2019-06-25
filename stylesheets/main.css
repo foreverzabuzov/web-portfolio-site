@@ -9,7 +9,6 @@ main {
 .intro {
   display: flex;
   flex-direction: column;
-
   background: black;
 
   justify-content: center;
@@ -36,8 +35,6 @@ main {
   flex-direction: column;
 
   width: 70vw;
-  padding-top: 20pt;
-
   text-align: left;
 
   font-size: 3vw;

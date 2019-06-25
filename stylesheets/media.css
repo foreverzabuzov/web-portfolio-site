@@ -1,0 +1,441 @@
+@media all and (min-width: 1024px) {
+  nav {
+    display: flex;
+
+    margin-right: 3.3vw;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  ul a {
+    position: relative;
+
+    margin-right: 2.2vw;
+
+    text-decoration: none;
+
+    color: white;
+    border: 2px solid transparent;
+
+    font-size: 2vw;
+    font-weight: 300;
+
+    align-items: center;
+  }
+
+  .logo img {
+    width: 30vw;
+  }
+
+  .intro_zag {
+    display: flex;
+
+    margin-top: 20vw;
+
+
+    font-size: 9vw;
+    font-weight: 600;
+  }
+
+  .intro_zag div {
+    padding-right: 3vw;
+    padding-left: 3vw;
+  }
+
+  .intro_text {
+    display: flex;
+    flex-direction: column;
+
+    width: 70vw;
+
+    text-align: left;
+
+    font-size: 2.5vw;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro_text p {
+    text-align: center;
+    padding-top: 5vw;
+  }
+
+  .sky p {
+   background-image: -webkit-linear-gradient(right, #18FF02, #FF0402);
+   -webkit-background-clip: text;
+
+   -webkit-text-fill-color: transparent;
+  }
+
+  .land p {
+   background-image: -webkit-linear-gradient(right, #FFFFFF, #27BCE9);
+   -webkit-background-clip: text;
+
+   -webkit-text-fill-color: transparent;
+  }
+
+  .idea_zag {
+    margin-right: 10vw;
+
+    font-size: 5vw;
+    font-weight: 400;
+  }
+
+  .idea {
+    display: flex;
+    padding-top: 30vw;
+    padding-bottom: 10vw;
+  /* background-image: -webkit-linear-gradient(bottom, #18FF02, #FF0402); */
+
+    background-color: black;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+
+    width: 50vw;
+
+    font-size: 2vw;
+    font-weight: 300;
+  }
+
+  .description p {
+    margin-bottom: 2vw;
+  }
+
+  .description p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .style {
+    display: flex;
+    flex-direction: column;
+
+    background: black;
+
+    align-items: center;
+  }
+
+  .style h1 {
+    text-align: center;
+
+    font-size: 5vw;
+    font-weight: 400;
+  }
+
+  .style h2 {
+    font-size: 5vw;
+    font-weight: 300;
+  }
+
+  .logo2 img {
+    width: 50vw;
+  }
+
+  .identics {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .identics img {
+    width: 90vw;
+  }
+
+  .style p {
+    width: 80vw;
+    margin-top: 3vw;
+    margin-bottom:3vw;
+
+    font-size: 2.5vw;
+    font-weight: 300;
+  }
+
+
+  .identics h2 {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+
+  .logo2 {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo2 h2{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+
+  .posters {
+    display: flex;
+    flex-direction: column;
+
+    background: black;
+
+    align-items: center;
+  }
+
+  .posters h1 {
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+  }
+
+  .posters p {
+    width: 80vw;
+    margin-top: 3vw;
+    margin-bottom:3vw;
+
+    font-size: 2.5vw;
+    font-weight: 300;
+  }
+
+  .posters h1 {
+    text-align: center;
+
+    font-size: 5vw;
+    font-weight: 400;
+  }
+
+  .posters h2 {
+    text-align: center;
+
+    font-size: 5vw;
+    font-weight: 300;
+  }
+
+  .posters_graphical img, .posters_typographical img {
+    width: 30vw;
+    margin-bottom: 5vw;
+
+    border: 2px solid #27BCE9;
+    border-radius: 5px;
+  }
+
+  .graphical {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .graphical h2{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+
+  .posters_graphical {
+    display: grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 5vw;
+  }
+
+  .typographical h2{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .posters_typographical {
+    display: grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 5vw;
+  }
+
+  .threeD {
+    display: flex;
+    flex-direction: column;
+
+    background: black;
+
+    align-items: center;
+  }
+
+  .threeD h1 {
+    margin-bottom: 5vw;
+
+    font-size: 5vw;
+    font-weight: 400;
+  }
+
+  .threeD_description p {
+    display: flex;
+    flex-direction: column;
+
+    width: 80vw;
+    margin-top: 3vw;
+    margin-bottom:5vw;
+
+    font-size: 2.5vw;
+    font-weight: 300;
+  }
+
+  .threeD_description h1 {
+    margin-top: 10vw;
+
+    text-align: center;
+
+    font-size: 5vw;
+    font-weight: 400;
+  }
+
+  .threeD_renders {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .threeD_renders img {
+    width: 90vw;
+    margin-bottom: 5vw;
+
+    border: 2px solid #27BCE9;
+    border-radius: 5px;
+  }
+
+  .rebranding {
+    background: black;
+  }
+
+  .rebranding h1 {
+    margin-top: 10vw;
+
+    font-size: 5vw;
+    font-weight: 400;
+    margin-bottom: 3vw;
+  }
+
+  .rebranding_description {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 5vw;
+    font-weight: 400;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rebranding_description p {
+    display: flex;
+    flex-direction: column;
+
+    width: 80vw;
+    margin-top: 3vw;
+    margin-bottom:3vw;
+
+    text-align: left;
+
+    font-size: 2.5vw;
+    font-weight: 300;
+  }
+
+  .rebranding_description p:last-of-type {
+    margin-bottom: 5vw;
+  }
+
+  .rebranding h2 {
+    text-align: center;
+
+    font-size: 5vw;
+    font-weight: 300;
+  }
+
+  .logo_new img {
+    width: 50vw;
+    margin-top: 5vw;
+  }
+
+  .logo_new {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo_new h2{
+    top
+  }
+
+  .identics_new {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .identics_new h2 {
+    margin-top: 5vw;
+  }
+
+  .identics_new img {
+    width: 90vw;
+    margin-bottom: 5vw;
+
+    border: 2px solid #27BCE9;
+    border-radius: 5px;
+  }
+
+  .identics_new h2 {
+    margin-bottom: 5vw;
+  }
+
+  .posters_new {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .posters_new img{
+    display: flex;
+    flex-direction: column;
+
+    width: 40vw;
+    margin-bottom: 5vw;
+
+    border: 2px solid #27BCE9;
+    border-radius: 5px;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .posters_new_1 img {
+    width: 40vw;
+    margin-top: 5vw;
+    margin-bottom: 9.5vw;
+
+  }
+
+  .posters_new_1 {
+    display: flex;
+    flex-direction: row;
+
+    width: 90vw;
+
+    justify-content: center;
+  }
+  .posters_new_main img {
+    width: 90vw;
+  }
+
+  .posters_new_1 img:first-of-type {
+    margin-right: 9.5vw;
+  }
+}
