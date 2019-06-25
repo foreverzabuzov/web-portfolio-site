@@ -130,9 +130,12 @@ main {
 }
 
 
-.logo {
+.logo2 {
   display: flex;
   flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -239,11 +242,119 @@ main {
   font-weight: 400;
 }
 
+.threeD_renders {
+  display: flex;
+  flex-direction: column;
+}
+
+.threeD_renders img {
+  width: 90vw;
+  margin-bottom: 5vw;
+
+  border: 2px solid #27BCE9;
+  border-radius: 5px;
+}
+
 .rebranding {
-  background: red;
+  background: black;
 }
 
 .rebranding h1 {
   font-size: 6vw;
   font-weight: 400;
+}
+
+.rebranding_description {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  font-size: 6vw;
+  font-weight: 400;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.rebranding_description p {
+  display: flex;
+  flex-direction: column;
+
+  width: 80vw;
+  margin-top: 3vw;
+  margin-bottom:3vw;
+
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+
+.rebranding h2 {
+  text-align: center;
+
+  font-size: 5vw;
+  font-weight: 300;
+}
+
+.identics_new {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.identics_new img {
+  width: 90vw;
+  margin-bottom: 5vw;
+
+  border: 2px solid #27BCE9;
+  border-radius: 5px;
+}
+
+.identics_new h2 {
+  margin-bottom: 5vw;
+}
+
+.posters_new {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.posters_new img{
+  display: flex;
+  flex-direction: column;
+
+  width: 40vw;
+  margin-bottom: 5vw;
+
+  border: 2px solid #27BCE9;
+  border-radius: 5px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.posters_new_1 img {
+  width: 40vw;
+  margin-top: 5vw;
+  margin-bottom: 9.5vw;
+
+}
+
+.posters_new_1 {
+  display: flex;
+  flex-direction: row;
+
+  width: 90vw;
+
+  justify-content: center;
+}
+.posters_new_main img {
+  width: 90vw;
+}
+
+.posters_new_1 img:first-of-type {
+  margin-right: 9.5vw;
 }
