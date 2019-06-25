@@ -2,14 +2,19 @@ footer {
   display: grid;
 
   width: 100%;
-  margin: 100px 0 0;
   padding: 60px 0 40px;
 
+  color: black;
   background-color: #02C1EE;
 
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 80px;
 }
+
+footer a {
+  color: black;
+}
+
 footer h2 {
   margin: 0 0 19px;
 
@@ -27,11 +32,17 @@ footer h3:nth-child(3) {
 .footer_header {
   grid-column: 1/4;
 }
-.autor {
+
+.footer_header {
+  margin-left: 5vw;
+}
+
+.author {
   grid-column: 5;
 }
-span {
-  margin-top: 12px;
+
+.curators {
+  margin-right: 5vw;
 }
 
 footer .images {
@@ -47,18 +58,20 @@ footer img:nth-child(2) {
 }
 
 footer a {
-  text-decoration: underline;
-
-  color: black;
+  text-decoration: none;
 }
 footer a:checked {
-  color: black;
+  color: white;
 }
 footer .info {
   display: flex;
   flex-direction: column;
 
   height: 50px;
+}
+
+.images img {
+  margin-left: 42vw;
 }
 
 
