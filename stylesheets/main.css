@@ -21,6 +21,8 @@ main {
 .intro_zag {
   display: flex;
 
+  margin-top: 20vw;
+
   font-size: 10vw;
   font-weight: 600;
 }
@@ -31,9 +33,22 @@ main {
 }
 
 .intro_text {
+  display: flex;
+  flex-direction: column;
+
+  width: 70vw;
   padding-top: 20pt;
 
+  text-align: left;
+
   font-size: 20pt;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.intro_text p {
+  text-align: center;
 }
 
 .sky p {
@@ -60,7 +75,7 @@ main {
 .idea {
   display: flex;
 
-  height: 100vh;
+  height: 50vh;
 /* background-image: -webkit-linear-gradient(bottom, #18FF02, #FF0402); */
 
   background-color: black;
@@ -108,12 +123,20 @@ main {
   font-weight: 300;
 }
 
+.logo2 img {
+  width: 50vw;
+}
+
 .identics {
   display: flex;
   flex-direction: column;
 
   justify-content: center;
   align-items: center;
+}
+
+.identics img {
+  width: 90vw;
 }
 
 .style p {
@@ -125,8 +148,10 @@ main {
   font-weight: 300;
 }
 
-.style img {
-  width: 50vw;
+
+.identics h2 {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
 
@@ -138,6 +163,11 @@ main {
   align-items: center;
 }
 
+.logo2 h2{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
 
 .posters {
   display: flex;
@@ -146,6 +176,11 @@ main {
   background: black;
 
   align-items: center;
+}
+
+.posters h1 {
+  margin-top: 10vw;
+  margin-bottom: 5vw;
 }
 
 .posters p {
@@ -185,6 +220,7 @@ main {
 }
 
 .graphical h2{
+  margin-top: 5vw;
   margin-bottom: 5vw;
 }
 
@@ -198,6 +234,7 @@ main {
 }
 
 .typographical h2{
+  margin-top: 5vw;
   margin-bottom: 5vw;
 }
 
@@ -219,6 +256,8 @@ main {
 }
 
 .threeD h1 {
+  margin-bottom: 5vw;
+
   font-size: 6vw;
   font-weight: 400;
 }
@@ -229,13 +268,15 @@ main {
 
   width: 80vw;
   margin-top: 3vw;
-  margin-bottom:3vw;
+  margin-bottom:5vw;
 
   font-size: 2.5vw;
   font-weight: 300;
 }
 
 .threeD_description h1 {
+  margin-top: 10vw;
+
   text-align: center;
 
   font-size: 6vw;
@@ -260,6 +301,8 @@ main {
 }
 
 .rebranding h1 {
+  margin-top: 10vw;
+
   font-size: 6vw;
   font-weight: 400;
 }
@@ -267,8 +310,6 @@ main {
 .rebranding_description {
   display: flex;
   flex-direction: column;
-
-  text-align: center;
 
   font-size: 6vw;
   font-weight: 400;
@@ -285,6 +326,8 @@ main {
   margin-top: 3vw;
   margin-bottom:3vw;
 
+  text-align: left;
+
   font-size: 2.5vw;
   font-weight: 300;
 }
@@ -296,11 +339,28 @@ main {
   font-weight: 300;
 }
 
+.logo_new img {
+  width: 50vw;
+  margin-top: 5vw;
+}
+
+.logo_new {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
 .identics_new {
   display: flex;
   flex-direction: column;
 
   align-items: center;
+}
+
+.identics_new h2 {
+  margin-top: 5vw;
 }
 
 .identics_new img {
